@@ -1,0 +1,7 @@
+Задание 1
+SELECT c.login,
+       COUNT (o."inDelivery") AS orders_quantity
+FROM "Couriers" AS c
+LEFT OUTER JOIN "Orders" AS o ON c.id=o."courierId"
+WHERE o."inDelivery"=true
+GROUP BY c.login;
