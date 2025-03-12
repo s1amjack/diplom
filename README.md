@@ -12,10 +12,13 @@
 файл: Diplom_task_2
 
 #Часть 2. Работа с базой данных
+
 Автоматизация теста к API
+
 Файлы:
 1. configuration.py
 2. data.py
 3. sender_stand_request.py
 4. auto_test.py
+
 5..gitignore
