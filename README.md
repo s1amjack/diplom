@@ -20,4 +20,4 @@
 2. data.py
 3. sender_stand_request.py
 4. auto_test.py
-5..gitignore
+5. .gitignore
